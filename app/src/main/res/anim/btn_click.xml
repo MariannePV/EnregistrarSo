@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="false" >
+    <!-- Amb el fillAfter = false, el que aconseguim es que després de dur-se a terme l'animació, els canvis que s'han dut a terme amb aquesta, no es mantinguin -->
+    <!-- Els android:pivot, assignen en quin punt ocorre la transformació de l'escala, en aquest cas, just al centre -->
+    <scale
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:toXScale="1.2"
+        android:toYScale="1.2"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="200"
+        />
+</set>
